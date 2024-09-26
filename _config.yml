@@ -2,5 +2,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: Sparsh's homepage
-description: A space to share my work, interests and ideas.
+title: "Sparsh Gupta's Data Science Portfolio"
+description: "Showcase of my data science projects, skills, and experience."
+author: Sparsh Gupta
+theme: jekyll-theme-cayman
