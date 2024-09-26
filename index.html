@@ -5,41 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal ML Projects Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Machine Learning Portfolio - Sparsh Gupta</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#" id="show-projects">Projects</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+
     </header>
 
+    <nav>
+        <ul>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Data Science enthusiast with a passion for Machine Learning, Deep Learning, and Natural Language Processing. I have experience in building data-driven solutions and optimizing machine learning pipelines.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Core Competencies: Time-Series Analysis, NLP, Deep Learning, Statistical Modeling, ML Pipelining</li>
+            <li>Programming Languages: C/C++, Python, R, SQL, SAS</li>
+            <li>ML/DL Frameworks: PyTorch, Lightning, Scikit-learn, Statsmodels, HuggingFace, Langchain, Nvidia Rapids</li>
+            <li>Tools: Docker, Git, Weights and Biases, AI Studio/Rapid Miner</li>
+            <li>Cloud Platforms: AWS S3, EC2</li>
+        </ul>
+    </section>
+
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <!-- Project Card 1 -->
+            <h3>Commodity Price Forecasting</h3>
+            <ul>
+                <li>High volatility in commodity markets poses a challenge for risk managers of manufacturing companies who aim to leverage it while mitigating downside risks.</li>
+                <li>Developed an automated ML pipeline from scratch, incorporating data source fetching from REST APIs, data cleaning, preprocessing, ML modeling, evaluation, and deployment using Python with AWS, PyTorch, Scikit-learn, pandas, and Streamlit.</li>
+                <li>Optimized the ML pipeline for HPC clusters, reducing the runtime from 10 to 3 hours for large-scale financial time-series forecasting.</li>
+                <li>Achieved annual savings of $600K for the company.</li>
+            </ul>
+            <!-- Repeat for other projects -->
+        </div>
+    </section>
 
     <main>
-        <section id="projects">
-            <h2>My Projects</h2>
-            <div class="project-gallery">
-                <!-- Project Card 1 -->
-                <div class="project-card">
-                    <img src="path-to-your-project-image.jpg" alt="Project Image">
-                    <h3>Project Title</h3>
-                    <p>Short description of the project...</p>
-                    <a href="link-to-project" class="btn">View Project</a>
-                </div>
-                <!-- Repeat for other projects -->
-            </div>
-        </section>
 
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Details about yourself and your experience with ML.</p>
-        </section>
+
+
 
         <section id="contact">
             <h2>Contact</h2>
