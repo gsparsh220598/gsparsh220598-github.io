@@ -1,0 +1,3 @@
+[submodule "gsparsh/hugo-apero"]
+	path = gsparsh/hugo-apero
+	url = https://github.com/hugo-apero/hugo-apero.git
