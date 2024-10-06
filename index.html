@@ -11,104 +11,103 @@
 
 <body>
     <header>
-        <h1>Sparsh Gupta</h1>
-        <p>Data Scientist | Machine Learning Engineer | AI Enthusiast</p>
+        <nav class="main-nav">
+            <!-- <div class="nav-logo">
+                <a href="index.html">Sparsh Gupta</a>
+            </div> -->
+            <ul class="nav-links">
+                <li><a href="index.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </ul>
-    </nav>    
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a Data Science enthusiast with a passion for Machine Learning, Deep Learning, and Natural Language Processing. I have experience in building data-driven solutions and optimizing machine learning pipelines.</p>
-    </section>
+    <main class="container">
+        <section id="about">
+            <div class="profile">
+                <!-- <img src="images/your-photo.jpg" alt="Sparsh Gupta" class="profile-photo"> -->
+                <h1>Sparsh Gupta</h1>
+                <h2>Data Scientist | Machine Learning Engineer</h2>
+            </div>
+            <div class="bio">
+                <h3>About Me</h3>
+                <p>Hello! I'm a passionate data scientist and machine learning engineer with a keen interest in solving complex problems using cutting-edge technologies. With a background in Engineering, and Data Science, I specialize in developing innovative solutions that drive business value through data-driven insights and predictive modeling.</p>
+                <p>My expertise spans across various domains including Finance, Manufacturing and Marketing, and I'm always excited to take on new challenges that push the boundaries of what's possible with AI and machine learning.</p>
+            </div>
+        </section>
+    </main>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill-card core-competencies">
-                <h3>Core Competencies</h3>
-                <div class="skill-bubbles">
-                    <span class="skill-bubble">Time-Series Analysis</span>
-                    <span class="skill-bubble">NLP</span>
-                    <span class="skill-bubble">Deep Learning</span>
-                    <span class="skill-bubble">Statistical Modeling</span>
-                    <span class="skill-bubble">ML Pipelining</span>
-                </div>
-            </div>
-            <div class="skill-card programming-languages">
-                <h3>Programming Languages</h3>
-                <div class="skill-bubbles">
-                    <span class="skill-bubble">C/C++</span>
-                    <span class="skill-bubble">Python</span>
-                    <span class="skill-bubble">R</span>
-                    <span class="skill-bubble">SQL</span>
-                    <span class="skill-bubble">SAS</span>
-                </div>
-            </div>
-            <div class="skill-card ml-dl-frameworks">
-                <h3>ML/DL Frameworks</h3>
-                <div class="skill-bubbles">
-                    <span class="skill-bubble">PyTorch</span>
-                    <span class="skill-bubble">Lightning</span>
-                    <span class="skill-bubble">Scikit-learn</span>
-                    <span class="skill-bubble">Statsmodels</span>
-                    <span class="skill-bubble">HuggingFace</span>
-                    <span class="skill-bubble">Langchain</span>
-                    <span class="skill-bubble">Nvidia Rapids</span>
-                </div>
-            </div>
-            <div class="skill-card tools">
-                <h3>Tools</h3>
-                <div class="skill-bubbles">
-                    <span class="skill-bubble">Docker</span>
-                    <span class="skill-bubble">Git</span>
-                    <span class="skill-bubble">Weights and Biases</span>
-                    <span class="skill-bubble">AI Studio/Rapid Miner</span>
-                </div>
-            </div>
-            <div class="skill-card cloud-platforms">
-                <h3>Cloud Platforms</h3>
-                <div class="skill-bubbles">
-                    <span class="skill-bubble">AWS S3</span>
-                    <span class="skill-bubble">EC2</span>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <!-- Project Card 1 -->
-            <h3>Commodity Price Forecasting</h3>
-            <ul>
-                <li>High volatility in commodity markets poses a challenge for risk managers of manufacturing companies who aim to leverage it while mitigating downside risks.</li>
-                <li>Developed an automated ML pipeline from scratch, incorporating data source fetching from REST APIs, data cleaning, preprocessing, ML modeling, evaluation, and deployment using Python with AWS, PyTorch, Scikit-learn, pandas, and Streamlit.</li>
-                <li>Optimized the ML pipeline for HPC clusters, reducing the runtime from 10 to 3 hours for large-scale financial time-series forecasting.</li>
-                <li>Achieved annual savings of $600K for the company.</li>
-            </ul>
-            <!-- Repeat for other projects -->
-        </div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <!-- Contact form will go here -->
-        <p>Feel free to reach out on <a href="gsparsh220598@gmail.com">email</a> or connect on <a href="https://www.linkedin.com/in/sparsh-gupta-a49b7a156">LinkedIn</a>.</p>
-    </section>
+    <main class="container">
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card core-competencies">
+                    <h3>Core Competencies</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">Time-Series Analysis</span>
+                        <span class="skill-bubble">NLP</span>
+                        <span class="skill-bubble">Deep Learning</span>
+                        <span class="skill-bubble">Statistical Modeling</span>
+                        <span class="skill-bubble">ML Pipelining</span>
+                    </div>
+                </div>
+                <div class="skill-card programming-languages">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">C/C++</span>
+                        <span class="skill-bubble">Python</span>
+                        <span class="skill-bubble">R</span>
+                        <span class="skill-bubble">SQL</span>
+                        <span class="skill-bubble">SAS</span>
+                    </div>
+                </div>
+                <div class="skill-card ml-dl-frameworks">
+                    <h3>ML/DL Frameworks</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">PyTorch</span>
+                        <span class="skill-bubble">Lightning</span>
+                        <span class="skill-bubble">Scikit-learn</span>
+                        <span class="skill-bubble">Statsmodels</span>
+                        <span class="skill-bubble">HuggingFace</span>
+                        <span class="skill-bubble">Langchain</span>
+                        <span class="skill-bubble">Nvidia Rapids</span>
+                    </div>
+                </div>
+                <div class="skill-card tools">
+                    <h3>Tools</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">Docker</span>
+                        <span class="skill-bubble">Git</span>
+                        <span class="skill-bubble">Weights and Biases</span>
+                        <span class="skill-bubble">AI Studio/Rapid Miner</span>
+                    </div>
+                </div>
+                <div class="skill-card cloud-platforms">
+                    <h3>Cloud Platforms</h3>
+                    <div class="skill-bubbles">
+                        <span class="skill-bubble">AWS S3</span>
+                        <span class="skill-bubble">EC2</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2024 Sparsh Gupta. Built using Jekyll & Cayman Theme.</p>
-      </footer>
+        <div class="contact-info">
+            <h3>Contact</h3>
+            <ul class="contact-list">
+                <li><a href="mailto:gsparsh220598@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                <li><a href="https://www.linkedin.com/in/sparsh-gupta-a49b7a156"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/gsparsh220598"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+        </div>
+        <p>&copy; 2024 Sparsh Gupta. All rights reserved.</p>
+    </footer>
 
-    <!-- <script src="script.js"></script> -->
 </body>
 
 </html>
